@@ -1,0 +1,222 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 33 1 8 a
+$SC 1-29/4
+$BUS IN 66 1 8 b
+$SC 34-62/4
+$IN +5 2 semna
+$IN +4 2 semnb
+I 3 "e#3#bitc2 01"
+$OUT +4 3 semnrez
+I 4 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 87 4 2 sel
+$SC 79 +4
+$IN +5 2 clk
+$BUS OUT +36 1 8 rez
+$SC 92-+28/4
+$ENDTIME 20000
+$WAVES 88
+=0 T 0
+R 1 2 =1 T 10k
+$VALUES
+V 3
+0
+1
+0
+$END
+$WAVES +32
+*0
+=2 D 10k 1
+$VALUES
+V 2
+U
+1
+$END
+$WAVES 1-17/4 +8 +9-50/4 +8 +9 +4 +8 +4
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES 21 +8 54 +8
+*0
+$VALUES
+V 1
+1
+$END
+$WAVES 92-+24/4
+*0
+*2
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 75
+*0
+$VALUES
+V 1
+0
+$END
+$ENDTIME 40000
+$WAVES 88
+=3 T 30k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$WAVES +32
+=4 D 30k 1
+$VALUES
+V 1
+0
+$END
+$WAVES 29
+=5 D 20k 1
+$VALUES
+V 1
+0
+$END
+$WAVES 21
+*5
+$VALUES
+V 1
+0
+$END
+$ENDTIME 60000
+$WAVES 88
+=6 T 50k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$WAVES +32
+=7 D 50k 1
+$VALUES
+V 1
+1
+$END
+$WAVES 29
+=8 D 40k 1
+$VALUES
+V 1
+1
+$END
+$WAVES 21
+*8
+$VALUES
+V 1
+1
+$END
+$WAVES +4
+*8
+$VALUES
+V 1
+1
+$END
+$WAVES 17
+*8
+$VALUES
+V 1
+1
+$END
+$WAVES 13
+*8
+$VALUES
+V 1
+1
+$END
+$WAVES 9
+*8
+$VALUES
+V 1
+1
+$END
+$WAVES 5
+*8
+$VALUES
+V 1
+1
+$END
+$WAVES 1
+*8
+$VALUES
+V 1
+1
+$END
+$WAVES +99
+*7
+$VALUES
+V 1
+1
+$END
+$WAVES +4
+*7
+$VALUES
+V 1
+1
+$END
+$WAVES +12
+*7
+$VALUES
+V 1
+1
+$END
+$ENDTIME 80000
+$WAVES 88
+=9 T 70k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$WAVES +32
+=10 D 70k 1
+$VALUES
+V 1
+0
+$END
+$WAVES 104
+*10
+$VALUES
+V 1
+0
+$END
+$WAVES +12
+*10
+$VALUES
+V 1
+0
+$END
+$WAVES 58
+=11 D 60k 1
+$VALUES
+V 1
+1
+$END
+$WAVES +9
+*11
+$VALUES
+V 1
+1
+$END
+$WAVES +45
+*10
+$VALUES
+V 1
+1
+$END
+$WAVES 75
+*10
+$VALUES
+V 1
+1
+$END
+$ENDWAVE

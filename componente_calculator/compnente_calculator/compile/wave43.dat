@@ -1,0 +1,74 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 33 1 8 deimpartit
+$SC 1-29/4
+$BUS IN 66 1 8 impartitor
+$SC 34-62/4
+I 3 "e#3#bitc2 01"
+$IN +5 3 semnd
+$IN +4 3 semni
+I 4 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 83 4 2 sel
+$SC 75 +4
+$BUS OUT +37 1 8 cat
+$SC 84-+28/4
+$OUT +5 3 semncat
+$ENDTIME 20000
+$WAVES 1 9-21/4 34-50/4 +8 75 +4
+=0 T 0
+$VALUES
+V 1
+0
+$END
+$WAVES 5 25 +4 54 +8
+*0
+$VALUES
+V 1
+1
+$END
+$WAVES 84-96/4 +12
+*0
+=1 D 0 1
+$VALUES
+V 2
+U
+0
+$END
+$WAVES +-8 +4 +8
+*0
+*1
+$VALUES
+V 2
+U
+1
+$END
+$WAVES 67
+*0
+$VALUES
+V 1
+1
+$END
+$WAVES +4
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES +46
+*0
+*1
+$VALUES
+V 2
+0
+1
+$END
+$ENDTIME 40000
+$WAVES 71
+=2 D 20k 1
+$VALUES
+V 1
+1
+$END
+$ENDWAVE

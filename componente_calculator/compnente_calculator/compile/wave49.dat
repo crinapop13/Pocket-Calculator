@@ -1,0 +1,43 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS S 33 1 8 x
+$SC 1-29/4
+$BUS S 66 1 8 y
+$SC 34-62/4
+$BUS S 99 1 8 z
+$SC 67-95/4
+$BUS S +37 1 8 adunare
+$SC 100-+28/4
+$BUS S +37 1 8 impar
+$SC 133-+28/4
+$BUS S +37 1 8 scadere
+$SC 166-+28/4
+$S +5 2 semna
+$S +4 2 semnin
+$S +4 2 5 0 m
+$S +4 2 semns
+$BUS S +36 1 8 inmul
+$SC 215-+28/4
+$S +5 2 semnre
+$IN +4 2 enable
+$INOUT +4 2 semnnr2
+$IN +4 2 clk
+$INOUT +4 2 semnnr1
+I 3 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT +20 3 4 anode
+$SC 268-+12/4
+I 4 "a#28#std_logic_vector(6 downto 0)1 ricd6 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT +33 4 7 cathode
+$SC 285-+24/4
+$IN +5 2 reset
+$BUS S +36 1 8 a
+$SC 318-+28/4
+$BUS IN +37 1 8 switch
+$SC 351-+28/4
+$IN +5 2 en
+I 5 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN +12 5 2 sel
+$SC +-8 +4
+IENDWAVE

@@ -1,0 +1,5 @@
+MESSAGE "File: c:\Users\popcr\Desktop\Facultate\Semestrul II\PSN\Proiect\componente_calculator\compnente_calculator\src\scazator8_biti.vhd" 
+MESSAGE "Compile Entity "scazator"" 
+MESSAGE "Entity `scazator' has been skipped - no difference detected." 
+MESSAGE "Compile Architecture "scazator8" of Entity "scazator"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  10.0 [s]" 

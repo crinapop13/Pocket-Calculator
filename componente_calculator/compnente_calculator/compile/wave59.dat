@@ -1,0 +1,23 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 33 1 8 numar
+$SC 1-29/4
+$IN +5 2 semn
+$IN +4 2 clk
+I 3 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT 58 3 4 anode
+$SC 42-54/4
+I 4 "a#28#std_logic_vector(6 downto 0)1 ricd6 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT 87 4 7 cathode
+$SC 59-83/4
+I 5 "a#29#std_logic_vector(15 downto 0)1 ricd15 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +69 5 16 temp
+$SC 88-+60/4
+I 6 "i#20#INTEGER range 0 to 9rict0 9 "
+$S +5 6 u
+$S +4 6 z
+I 7 "i#20#INTEGER range 0 to 1rict0 1 "
+$S +4 7 s
+IENDWAVE

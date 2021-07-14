@@ -1,0 +1,62 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=compnente_calculator
+
+[Library]
+compnente_calculator=.\compnente_calculator.lib
+
+[$LibMap$]
+compnente_calculator=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=mux|mux4_1|0   
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/mux4_1.vhd=-1
+/bcd_7segmente.vhd=-1
+/sumator_biti.vhd=-1
+/scazator8_biti.vhd=-1
+/bistabil_D.vhd=-1
+/impartire.vhd=-1
+/impartiree.vhd=-1
+/inmultire.vhd=-1
+/conexiuni.vhd=-1
+/formare_numar.vhd=-1
+/bist.vhd=-1
+/bist1.vhd=-1
+
+[Files.Data]
+.\src\mux4_1.vhd=VHDL Source Code
+.\src\bcd_7segmente.vhd=VHDL Source Code
+.\src\sumator_biti.vhd=VHDL Source Code
+.\src\scazator8_biti.vhd=VHDL Source Code
+.\src\bistabil_D.vhd=VHDL Source Code
+.\src\impartire.vhd=VHDL Source Code
+.\src\impartiree.vhd=VHDL Source Code
+.\src\inmultire.vhd=VHDL Source Code
+.\src\conexiuni.vhd=VHDL Source Code
+.\src\formare_numar.vhd=VHDL Source Code
+.\src\bist.vhd=VHDL Source Code
+.\src\bist1.vhd=VHDL Source Code
+

@@ -1,0 +1,12 @@
+i<>.\src\mux4_1.vhd
+i<>.\src\bcd_7segmente.vhd
+i<>.\src\sumator_biti.vhd
+i<>.\src\scazator8_biti.vhd
+i<>.\src\bistabil_D.vhd
+i<>.\src\impartire.vhd
+i<>.\src\impartiree.vhd
+i<>.\src\inmultire.vhd
+i<>.\src\conexiuni.vhd
+i<>.\src\formare_numar.vhd
+i<>.\src\bist.vhd
+i<>.\src\bist1.vhd

@@ -1,0 +1,99 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#29#std_logic_vector(15 downto 0)1 ricd15 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 65 1 16 switch
+$SC 1-61/4
+I 3 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 74 3 2 sel
+$SC 66 +4
+$IN +5 2 clk
+$IN +4 2 en
+$IN +4 2 enable
+$INOUT +4 2 semnnr1
+$INOUT +4 2 6 0 "2"
+I 4 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT +20 4 4 anode
+$SC 95-+12/4
+I 5 "a#28#std_logic_vector(6 downto 0)1 ricd6 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT +33 5 7 cathode
+$SC 112-+24/4
+$ENDTIME 20000
+$WAVES +0
+=0 T 0
+=1 D 0 1
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 95
+*0
+=2 D 0 2
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 1-13/4 33-53/4 75 +8 +4
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES 17-29/4 57 +4 +5 +4 +9 91
+*0
+$VALUES
+V 1
+1
+$END
+$WAVES +8-+8/4
+*0
+*2
+$VALUES
+V 2
+U
+1
+$END
+$WAVES +5-+20/4
+*0
+*1
+$VALUES
+V 2
+U
+1
+$END
+$ENDTIME 40000
+$WAVES 70
+=3 D 20k 1
+$VALUES
+V 1
+0
+$END
+$ENDTIME 60000
+$WAVES +0
+=4 D 40k 1
+$VALUES
+V 1
+1
+$END
+$WAVES 66
+*4
+$VALUES
+V 1
+0
+$END
+$WAVES +9
+=5 T 50k
+$VALUES
+V 1
+1
+$END
+$ENDTIME 80000
+$WAVES 70
+=6 D 60k 1
+$VALUES
+V 1
+0
+$END
+$ENDWAVE

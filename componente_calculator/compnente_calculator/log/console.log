@@ -1,0 +1,92 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+acom $DSN/src/conexiuni.vhd
+# Compile...
+# File: c:\Users\popcr\Desktop\Facultate\Semestrul II\PSN\Proiect\componente_calculator\compnente_calculator\src\conexiuni.vhd
+# Compile Entity "conex"
+# Entity `conex' has been skipped - no difference detected.
+# Compile Architecture "conexiuni" of Entity "conex"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom $DSN/src/conexiuni.vhd
+# Compile...
+# File: c:\Users\popcr\Desktop\Facultate\Semestrul II\PSN\Proiect\componente_calculator\compnente_calculator\src\conexiuni.vhd
+# Compile Entity "conex"
+# Compile Architecture "conexiuni" of Entity "conex"
+# Error: COMP96_0078: conexiuni.vhd : (93, 110): Unknown identifier "semnnr2".
+# Error: COMP96_0133: conexiuni.vhd : (93, 110): Cannot find object declaration.
+# Error: COMP96_0104: conexiuni.vhd : (93, 103): Undefined type of expression.
+# Error: COMP96_0078: conexiuni.vhd : (94, 111): Unknown identifier "semnnr2".
+# Error: COMP96_0133: conexiuni.vhd : (94, 111): Cannot find object declaration.
+# Error: COMP96_0104: conexiuni.vhd : (94, 104): Undefined type of expression.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom $DSN/src/conexiuni.vhd
+# Compile...
+# File: c:\Users\popcr\Desktop\Facultate\Semestrul II\PSN\Proiect\componente_calculator\compnente_calculator\src\conexiuni.vhd
+# Compile Entity "conex"
+# Entity `conex' has been skipped - no difference detected.
+# Compile Architecture "conexiuni" of Entity "conex"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/conexiuni.vhd
+# Compile...
+# File: c:\Users\popcr\Desktop\Facultate\Semestrul II\PSN\Proiect\componente_calculator\compnente_calculator\src\conexiuni.vhd
+# Compile Entity "conex"
+# Compile Architecture "conexiuni" of Entity "conex"
+# Error: COMP96_0078: conexiuni.vhd : (93, 95): Unknown identifier "semnid".
+# Error: COMP96_0133: conexiuni.vhd : (93, 95): Cannot find object declaration.
+# Error: COMP96_0104: conexiuni.vhd : (93, 88): Undefined type of expression.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom $DSN/src/conexiuni.vhd
+# Compile...
+# File: c:\Users\popcr\Desktop\Facultate\Semestrul II\PSN\Proiect\componente_calculator\compnente_calculator\src\conexiuni.vhd
+# Compile Entity "conex"
+# Entity `conex' has been skipped - no difference detected.
+# Compile Architecture "conexiuni" of Entity "conex"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom $DSN/src/conexiuni.vhd
+# Compile...
+# File: c:\Users\popcr\Desktop\Facultate\Semestrul II\PSN\Proiect\componente_calculator\compnente_calculator\src\conexiuni.vhd
+# Compile Entity "conex"
+# Compile Architecture "conexiuni" of Entity "conex"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/bist.vhd
+# Compile...
+# File: c:\Users\popcr\Desktop\Facultate\Semestrul II\PSN\Proiect\componente_calculator\compnente_calculator\src\bist.vhd
+# Compile Entity "bistabil"
+# Entity `bistabil' has been skipped - no difference detected.
+# Compile Architecture "nr2" of Entity "bistabil"
+# Compile success 0 Errors 0 Warnings  Analysis time :  5.0 [s]
+acom $DSN/src/bist1.vhd
+# Compile...
+# File: c:\Users\popcr\Desktop\Facultate\Semestrul II\PSN\Proiect\componente_calculator\compnente_calculator\src\bist1.vhd
+# Compile Entity "registru_mem"
+# Entity `registru_mem' has been skipped - no difference detected.
+# Compile Architecture "rezultat" of Entity "registru_mem"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom $DSN/src/bist.vhd
+# Compile...
+# File: c:\Users\popcr\Desktop\Facultate\Semestrul II\PSN\Proiect\componente_calculator\compnente_calculator\src\bist.vhd
+# Compile Entity "bistabil"
+# Entity `bistabil' has been skipped - no difference detected.
+# Compile Architecture "nr2" of Entity "bistabil"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom $DSN/src/bist.vhd
+# Compile...
+# File: c:\Users\popcr\Desktop\Facultate\Semestrul II\PSN\Proiect\componente_calculator\compnente_calculator\src\bist.vhd
+# Compile Entity "bistabil"
+# Entity `bistabil' has been skipped - no difference detected.
+# Compile Architecture "nr2" of Entity "bistabil"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom $DSN/src/bistabil_D.vhd
+# Compile...
+# File: c:\Users\popcr\Desktop\Facultate\Semestrul II\PSN\Proiect\componente_calculator\compnente_calculator\src\bistabil_D.vhd
+# Compile Entity "bistabil_d"
+# Entity `bistabil_d' has been skipped - no difference detected.
+# Compile Architecture "nr1" of Entity "bistabil_d"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom $DSN/src/scazator8_biti.vhd
+# Compile...
+# File: c:\Users\popcr\Desktop\Facultate\Semestrul II\PSN\Proiect\componente_calculator\compnente_calculator\src\scazator8_biti.vhd
+# Compile Entity "scazator"
+# Entity `scazator' has been skipped - no difference detected.
+# Compile Architecture "scazator8" of Entity "scazator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  10.0 [s]
